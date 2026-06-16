@@ -1,0 +1,5 @@
+芯片型号为ESP32-S3-WROOM-1 8mbPSRAM 
+摄像头OV2640
+LCD屏幕
+BH1750光照传感器
+NTC温度传感器

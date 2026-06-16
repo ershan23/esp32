@@ -1,0 +1,32 @@
+{
+  "labels": [
+    "healthy",
+    "disease"
+  ],
+  "img_size": 96,
+  "input_shape": [
+    1,
+    96,
+    96,
+    3
+  ],
+  "input_dtype": "int8",
+  "output_shape": [
+    1,
+    2
+  ],
+  "output_dtype": "int8",
+  "metrics": {
+    "accuracy": 0.9524983167648315,
+    "loss": 0.12693984806537628
+  },
+  "history_last": {
+    "accuracy": 0.96558678150177,
+    "loss": 0.0925467237830162,
+    "val_accuracy": 0.9527438879013062,
+    "val_loss": 0.1330076903104782,
+    "learning_rate": 0.0010000000474974513
+  },
+  "int8_model_bytes": 60816,
+  "float_model_bytes": 214352
+}
