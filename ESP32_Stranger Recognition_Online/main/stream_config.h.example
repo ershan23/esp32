@@ -1,0 +1,11 @@
+#pragma once
+
+// Copy this file to main/stream_config.h and fill in your local WiFi.
+#define APP_WIFI_SSID "your_wifi_ssid"
+#define APP_WIFI_PASSWORD "your_wifi_password"
+
+// Run server/server.js on 62.234.54.71. Change the port if you proxy it through nginx.
+#define APP_FRAME_UPLOAD_URL "http://62.234.54.71:8080/api/frame"
+
+// Optional. If set here, start the server with the same DEVICE_TOKEN value.
+#define APP_UPLOAD_TOKEN ""

@@ -1,0 +1,14 @@
+#ifndef __MY_CAMERA_H_
+#define __MY_CAMERA_H_
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+void camera_init(void);
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif
